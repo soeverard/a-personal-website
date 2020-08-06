@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  margin: 0;
+  color: #40514e;
+}
+h1 {
+  font-family: "Marck Script", cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+}
+h3 {
+  font-family: "Merriweather", serif;
+  color: #11999e;
+}
+a {
+  color: #11999e;
+  text-decoration: none;
+  font-weight: normal;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: white;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+
+  line-height: 2;
+}
+hr {
+  border-color: #eaf6f6;
+  border-width: 10px;
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  margin: 100px auto;
+}
+.top-cloud {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 100px;
+  bottom: 300px;
+}
+.underline {
+  text-decoration: underline;
+}
+.top-container {
+  padding-top: 80px;
+  background-color: #eaf6f6;
+}
+.profile {
+  margin: 100px auto;
+  width: 30%;
+}
+.profile-img {
+  width: 50%;
+  border-radius: 50%;
+  //margin: 50px;
+}
+.middle-container {
+}
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.ux-ui-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.web-dev-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 20px;
+  margin-top: 100px;
+}
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-me {
+  margin: 100px auto;
+  width: 30%;
+}
+
+.btn {
+  background-color: #11999e;
+  color: white;
+  border-radius: 4px;
+  padding: 8px 20px;
+}
+
+.btn:hover {
+  background-color: #66bfbf;
+  transition: ease-in-out 500ms;
+}
